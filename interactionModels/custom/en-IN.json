@@ -1,0 +1,114 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my bank",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "nothing"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "OrnamentIntent",
+          "slots": [],
+          "samples": [
+            "is jewellery covered in home insurance",
+            "does a home insurance cover ornaments",
+            "are ornaments insured in home insurance",
+            "does home insurance include cover for ornaments",
+            "can I cover my ornaments in home insurance",
+            "are ornaments covered in home insurance"
+          ]
+        },
+        {
+          "name": "ScheduleLossIntent",
+          "slots": [],
+          "samples": [
+            "tell me about schedule of loss in home insurance",
+            "schedule of loss in home insurance",
+            "explain schedule of loss in home insurance",
+            "what do you mean by schedule of loss in home insurance",
+            "what is the meaning of schedule of loss in home insurance",
+            "what is schedule of loss in home insurance",
+            "what is schedule of loss"
+          ]
+        },
+        {
+          "name": "PerilsIntent",
+          "slots": [],
+          "samples": [
+            "different types of perils in home insurance",
+            "difference between all perils and specified perils",
+            "what is the difference between all perils and specified perils"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "C",
+                "synonyms": [
+                  "3",
+                  "three",
+                  "sea",
+                  "see",
+                  "c",
+                  "c."
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "B",
+                "synonyms": [
+                  "2",
+                  "two",
+                  "bee",
+                  "b",
+                  "b."
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "A",
+                "synonyms": [
+                  "1",
+                  "one",
+                  "a",
+                  "a."
+                ]
+              }
+            }
+          ],
+          "name": "OPTIONS"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "5"
+}
